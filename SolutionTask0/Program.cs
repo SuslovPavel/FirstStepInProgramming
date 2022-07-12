@@ -1,4 +1,4 @@
-﻿string inputLine = Console.ReadLine(); 
+﻿string? inputLine = Console.ReadLine(); 
 
 if(inputLine != null)
 {
