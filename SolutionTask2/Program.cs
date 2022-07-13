@@ -4,36 +4,39 @@ if(inputLine != null)
 {
     int inputNumber = int.Parse(inputLine);
 
-    switch (inputNumber)
-    {
-        case 1: 
-        Console.WriteLine ("Понедельник");
-        break;
+    string outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(inputNumber));
 
-        case 2: 
-        Console.WriteLine ("Вторник");
-        break;
+    Console.WriteLine(outDayOfWeek);   
+    // switch (inputNumber)
+    // {
+    //     case 1: 
+    //     Console.WriteLine ("Понедельник");
+    //     break;
 
-        case 3: 
-        Console.WriteLine ("Среда");
-        break;
+    //     case 2: 
+    //     Console.WriteLine ("Вторник");
+    //     break;
 
-        case 4: 
-        Console.WriteLine ("Четверг");
-        break;
+    //     case 3: 
+    //     Console.WriteLine ("Среда");
+    //     break;
 
-        case 5: 
-        Console.WriteLine ("Пятница");
-        break;
+    //     case 4: 
+    //     Console.WriteLine ("Четверг");
+    //     break;
 
-        case 6: 
-        Console.WriteLine ("Суббота");
-        break;
+    //     case 5: 
+    //     Console.WriteLine ("Пятница");
+    //     break;
 
-        case 7: 
-        Console.WriteLine ("Воскресенье");
-        break;
-    }
+    //     case 6: 
+    //     Console.WriteLine ("Суббота");
+    //     break;
+
+    //     case 7: 
+    //     Console.WriteLine ("Воскресенье");
+    //     break;
+    // }
 
     //string[] dayOfWeek = new string [7];
     //dayOfWeek[0] = "Понедельник";
