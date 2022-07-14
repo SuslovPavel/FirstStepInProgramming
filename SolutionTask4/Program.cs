@@ -2,9 +2,11 @@
 
 if(inputLine != null)
 {
-    int inputNumber = int.Parse(inputLine);
+   char [] M = inputLine.ToCharArray();
+   
+    // int inputNumber = int.Parse(inputLine);
 
-    int outNumber = inputNumber%10;
+    // int outNumber = inputNumber%10;
 
-    Console.WriteLine(outNumber);
+    Console.WriteLine(M[2]);
 }
