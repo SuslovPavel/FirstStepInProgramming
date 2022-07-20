@@ -4,7 +4,7 @@ Console.Write("Введите цифру соответствующую дню �
 string? inputLineOne = Console.ReadLine(); 
 
 int numberDay =int.Parse(inputLineOne);
-if(numberDay == 7 || numberDay == 6 )
+if(numberDay == 7 || numberDay == 6 )                         // проверка соответствия условиям
 {
     Console.Write("Этот день является выходным");
 }
