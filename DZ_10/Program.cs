@@ -23,7 +23,7 @@ void Variant1()
 
 void variant2()
 {
-    Console.Clear();
+    //Console.Clear();
     Console.Write("Введите трёхзначное число: "); // принимаем значение с консоли
     string? inputLineOne = Console. ReadLine();
 
@@ -35,13 +35,14 @@ void variant2()
     }
     else
     {
+        Console.Write("Вторая цифра числа: ");
         Console.Write(NumberTwo);
     }
 
 }
 
 
-// Variant1();
+Variant1();
 
 variant2();
 
