@@ -6,7 +6,7 @@
 //===Метод 1 Считывает точки и возвращает массив с ними===//
 int[,] readPoint()
 {
-    string inputLine = Console.ReadLine();
+    string? inputLine = Console.ReadLine();
 
 
     string coordXLine =  inputLine.Substring(0,inputLine.IndexOf(";"));   // Берёт значение от 0 до ; и кладёт в значение coordX (Substring - выделяет подстроку)
