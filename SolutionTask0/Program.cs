@@ -1,4 +1,6 @@
-﻿string? inputLine = Console.ReadLine(); 
+﻿// Программа принимает значение и выдаёт его квадрат
+
+string? inputLine = Console.ReadLine(); 
 
 if(inputLine != null)
 {
