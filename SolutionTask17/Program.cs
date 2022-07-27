@@ -16,7 +16,7 @@ int[,] readPoint()
     coordYLine = coordYLine.Substring(coordYLine.IndexOf("=")+1);
 
     //Console.WriteLine(coordX+" "+coordY);                           // выводит координаты на консоль, введёные на консоле
-    //return new int[1,1];                                            // возвращаем пустой массив
+    //return new int[1,1];                                            // возвращаем пустой массив (!!возможно лишняя строка!!)
 
     int coordX = int.Parse(coordXLine);                             // заробрали значение, распарсили   
     int coordY = int.Parse(coordYLine);
