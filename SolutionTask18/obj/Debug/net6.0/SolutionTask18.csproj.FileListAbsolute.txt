@@ -1,0 +1,15 @@
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\bin\Debug\net6.0\SolutionTask18.exe
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\bin\Debug\net6.0\SolutionTask18.deps.json
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\bin\Debug\net6.0\SolutionTask18.runtimeconfig.json
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\bin\Debug\net6.0\SolutionTask18.dll
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\bin\Debug\net6.0\SolutionTask18.pdb
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.csproj.AssemblyReference.cache
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.AssemblyInfoInputs.cache
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.AssemblyInfo.cs
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.csproj.CoreCompileInputs.cache
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.dll
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\refint\SolutionTask18.dll
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.pdb
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\SolutionTask18.genruntimeconfig.cache
+C:\Users\pavel\OneDrive\Рабочий стол\Seminars\FirstStepInProgramming\SolutionTask18\obj\Debug\net6.0\ref\SolutionTask18.dll
