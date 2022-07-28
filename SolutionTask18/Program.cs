@@ -18,6 +18,6 @@ if(inputLine != null)                              // проверка усло�
 {
     int inputNumber = int.Parse(inputLine);       // распознаёт значение и переводит его в строчку  
     
-    printAnswer(inputNumber);
+    printAnswer(inputNumber);                     // включает метод
    
 }
