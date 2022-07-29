@@ -23,7 +23,7 @@ void readDataOfPoint()
 // Вычисляет расстояние между точками А и В
 void conculateLengthAB()
 {
-    // мат. действие извлечение корня                 // мат. действие возведение в степень
+           // мат. действие извлечение корня                      // мат. действие возведение в степень
 LengthAB = Math.Sqrt(Math.Pow((coordXPointA - coordXPointB), 2) + Math.Pow((coordYPointA - coordYPointB), 2));  // тип double хранит значения с запятыми
 }
 
