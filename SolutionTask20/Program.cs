@@ -8,7 +8,7 @@ double LengthAB;
 void readDataOfPoint()
 {
     Console.WriteLine("Введите коордигату Х точки А");         // Выводит сообщение на консоль
-    coordXPointA = int.Parse(Console.ReadLine());          // Распознаёт введёное значение
+    coordXPointA = int.Parse(Console.ReadLine());              // Распознаёт введёное значение
 
     Console.WriteLine("Введите коордигату Y точки А");
     coordYPointA = int.Parse(Console.ReadLine());
