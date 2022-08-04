@@ -3,10 +3,11 @@
 Console.Write("Введите число: ");
 
 int inputNumber = int. Parse(Console.ReadLine());
+int t;
 
 void VariamtSimple()
 {
-    int sumOfNumbers = 0;                            // Создаём накопитель
+    long sumOfNumbers = 0;                            // Создаём накопитель
     for(int i = 1; i<=inputNumber; i++)
     {
         sumOfNumbers+= i;
@@ -15,14 +16,19 @@ void VariamtSimple()
     Console.WriteLine("Сумма чисел от 1 до " + inputNumber + " = " + sumOfNumbers);
 
 }
-//VariamtSimple();
 
-void VariamtGauss()            // Метод решает туже задачу (Аналитически) через формулу Гаусса
+
+void VariamtGauss()             // Метод решает туже задачу (Аналитически) через формулу Гаусса
 {
-    int sumOfNumbers = 0;       // Создаём накопитель
-    sumOfNumbers =  ((1+inputNumber)*inputNumber)/2;
+    long sumOfNumbers = 0;       // Создаём накопитель
+    sumOfNumbers =  ((1+inputNumber)*inputNumber)/2;      // Формула Гаусса - считае суммму от 1 до инпутНамбер
 
     Console.WriteLine("Сумма чисел от 1 до " + inputNumber + " = " + sumOfNumbers);
 }
 
+t = Environment.TickCount;      // Считает системное время компьютера
+
+VariamtSimple();
+Console.WriteLine("Simple time: {0} ms",Environment.TickCount - t);  // считает время выполнения метода
 VariamtGauss();
+Console.WriteLine("Gausse time: {0} ms",Environment.TickCount - t);
