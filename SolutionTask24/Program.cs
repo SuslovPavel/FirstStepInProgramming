@@ -2,7 +2,8 @@
 
 Console.Write("Введите число: ");
 
-int inputNumber = int. Parse(Console.ReadLine());
+string inputLineNumber = Console.ReadLine()??"";
+int inputNumber = int. Parse(inputLineNumber);
 int t;
 
 void VariamtSimple()
