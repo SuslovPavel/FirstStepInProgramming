@@ -4,9 +4,11 @@
 Console.Write("Введите число: ");
 
 string inputLineNumber = Console.ReadLine()??"";       //   (??"") избавляет от null    
-int inputNumber = int.Parse(inputLineNumber);
+long inputNumber = long.Parse(inputLineNumber);
 
-int VariantChar()  // Метод возвращает int
+DateTime timePoint = DateTime.Now;                    // Вводим переменую для замера времени выполнения кода
+
+long VariantChar()  // Метод возвращает int
 {
     // int numberLength = 0;
     // char [] arrey = inputLineNumber.ToCharArray();    //  оператор преобразует число в массив
@@ -18,10 +20,10 @@ int VariantChar()  // Метод возвращает int
     return inputLineNumber.ToCharArray().Length;  //оператор берёт переменную преобразует её в массив и вызывает свойства Length                             
 }
 
-int VariantSimple()
+long VariantSimple()
 {
-    int numberLength = 0;
-    int digits = 1;
+    long numberLength = 0;
+    long digits = 1;
     while (digits < inputNumber)
     {
         digits = digits * 10;
@@ -30,17 +32,24 @@ int VariantSimple()
     return numberLength;
 }
 
-int VariantLog10()
+long VariantLog10()
 {
-    return (int)Math.Log10(inputNumber)+1;   // вызывает логорифм 10ти введёного числа,(int) принудительно преобразовывает в инт
+    return (long)Math.Log10(inputNumber)+1;   // вызывает логорифм 10ти введёного числа,(int) принудительно преобразовывает в инт
 }
 
-int result = 0;              //  кладёт в result переменную int
+long result = 0;              //  кладёт в result переменную int
+
+timePoint = DateTime.Now;    
 result = VariantChar();        
 Console.WriteLine(result);
+Console.WriteLine(DateTime.Now-timePoint);      //  расчитывает время выполнения метода и выводит результат на консоль
 
+timePoint = DateTime.Now;
 result = VariantSimple();        
 Console.WriteLine(result);
+Console.WriteLine(DateTime.Now-timePoint);
 
+timePoint = DateTime.Now;
 result =VariantLog10();        
 Console.WriteLine(result);
+Console.WriteLine(DateTime.Now-timePoint);
