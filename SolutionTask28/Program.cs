@@ -4,6 +4,8 @@
 Console.Write("Введите число: ");
 string? inputLine = Console.ReadLine()??"";
 long inputNum = int.Parse(inputLine);
+int t;
+
 
 //Console.WriteLine(sumNums(inputNum));      // Вызывает метод и выводит результат на консоль
 //Console.WriteLine(mulRec(inputNum));       // Вызывает метод и выводит результат на консоль
@@ -17,8 +19,10 @@ long sumNums(long num)
     }
     return sum;
 }
-Console.WriteLine(sumNums(inputNum));    // Вызывает метод и выводит результат на консоль
 
+t = Environment.TickCount;               // Считает системное время компьютера
+Console.WriteLine(sumNums(inputNum));    // Вызывает метод и выводит результат на консоль
+Console.WriteLine("Simple time: {0} ms",Environment.TickCount - t);    // считает время выполнения метода
 
 long mulRec(long num)         //  Метод с рекурсией  //
 {
@@ -31,4 +35,7 @@ long mulRec(long num)         //  Метод с рекурсией  //
         return num * mulRec(num- 1);
     }
 }
+
+t = Environment.TickCount;              // Считает системное время компьютера
 Console.WriteLine(mulRec(inputNum));    // Вызывает метод и выводит результат на консоль
+Console.WriteLine("Recurs time: {0} ms",Environment.TickCount - t);    // считает время выполнения метода
