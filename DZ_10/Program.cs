@@ -25,7 +25,7 @@ void variant2()
 {
     //Console.Clear();
     Console.Write("Введите трёхзначное число: "); // принимаем значение с консоли
-    string? inputLineOne = Console. ReadLine();
+    string? inputLineOne = Console. ReadLine()?? "";
 
     int NumberOne =int.Parse(inputLineOne);      // создание переменной
     int NumberTwo =(NumberOne%100)/10;           // вычисление второй цифры из введёного числа
