@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите пятизначное число: ");
-string? inputLine = Console.ReadLine();                // принимает значение с консоли
+string? inputLine = Console.ReadLine()?? "";                // принимает значение с консоли
 
 int number = int.Parse(inputLine);                     // распознаёт значение с консоли
 
