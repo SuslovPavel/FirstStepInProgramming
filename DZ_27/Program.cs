@@ -11,7 +11,7 @@ int numberB = 0;
 // {
 //     while (numberA > 0)
 //     {
-//         numberB = numberB + numberA % 10;
+//         numberB = numberB + (numberA % 10);
 //         numberA = numberA / 10;
 //     }
 //     Console.WriteLine(numberB);
