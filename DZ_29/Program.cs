@@ -1,11 +1,10 @@
 ﻿// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
 
 
-
 System.Random numberSintezator = new Random();  // Создаём: Рандомайзер, глобальную переменную, выделяем под него память (new)
 Console.Write("Ведите число равное длине массива: ");
 string inputNumber = Console.ReadLine()?? "";
-int lengthArrey = int.Parse(inputNumber);       // принимает число с консоли, распознает его, которое в последствии конвертирует в длину массива
+int lengthArrey = int.Parse(inputNumber);       // принимает число с консоли, распознает его, и  конвертирует в длину массива
 int i = 0;
 
 
@@ -23,3 +22,4 @@ void VariantNaive()
 
 }
 VariantNaive();
+
