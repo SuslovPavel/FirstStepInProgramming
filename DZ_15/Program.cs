@@ -1,7 +1,7 @@
 ﻿Console.Clear();
 
 Console.Write("Введите цифру соответствующую дню недели: ");   // принимаем значение с консоли
-string? inputLineOne = Console.ReadLine(); 
+string? inputLineOne = Console.ReadLine()??""; 
 
 int numberDay =int.Parse(inputLineOne);
 if(numberDay == 7 || numberDay == 6 )                         // проверка соответствия условиям
