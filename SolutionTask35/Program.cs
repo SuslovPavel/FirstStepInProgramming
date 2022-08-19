@@ -16,6 +16,7 @@ int[] FillingArrey()  // Метод возвращает массив запол
     }
     return outArray;
 }
+
 void PrintIntArray(int[] inputArray)  //Метод печатает массив
 {
     int i = 0;
