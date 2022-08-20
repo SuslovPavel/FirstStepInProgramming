@@ -7,17 +7,17 @@ double LengthAB;
 // Считывает координаты точек А и В
 void readDataOfPoint()
 {
-    Console.WriteLine("Введите коордигату Х точки А");         // Выводит сообщение на консоль
-    coordXPointA = int.Parse(Console.ReadLine());              // Распознаёт введёное значение
+    Console.WriteLine("Введите коордигату Х точки А");             // Выводит сообщение на консоль
+    coordXPointA = int.Parse(Console.ReadLine()??"");              // Распознаёт введёное значение
 
     Console.WriteLine("Введите коордигату Y точки А");
-    coordYPointA = int.Parse(Console.ReadLine());
+    coordYPointA = int.Parse(Console.ReadLine()??"");
 
     Console.WriteLine("Введите коордигату Х точки B");
-    coordXPointB = int.Parse(Console.ReadLine());
+    coordXPointB = int.Parse(Console.ReadLine()??"");
 
     Console.WriteLine("Введите коордигату Y точки B");
-    coordYPointB = int.Parse(Console.ReadLine());
+    coordYPointB = int.Parse(Console.ReadLine()??"");
 }
 
 // Вычисляет расстояние между точками А и В
