@@ -10,7 +10,7 @@ double k2;
 double x;
 double y;
 
-void ReadMethod()
+void ReadMethod()  // Метод считывает значения введёные пользователем, и распознаёт их
 {
     Console.WriteLine("Введите значение b1");                // Выводит сообщение на консоль
     b1 = double.Parse(Console.ReadLine()?? "");              // Распознаёт введёное значение
@@ -25,7 +25,7 @@ void ReadMethod()
     k2 = double.Parse(Console.ReadLine()?? "");
 }
 
-void ConculateMethod()
+void ConculateMethod()  // Метод расчитывает координыты пересечени двух прямых 
 {
     x =  (b2-b1)/(k1-k2);             // формула для нахождения координат пересечения двух прямых
     y = k1*((b2-b1)/(k1-k2))+b1;      // формула для нахождения координат пересечения двух прямых
@@ -33,11 +33,11 @@ void ConculateMethod()
 
 void PrintMethod()  //  Метод печатает результат
 {
-    Console.WriteLine($"({x} ; {y})");                 //Выводим элемент массива
+    Console.WriteLine($"({x} ; {y})");                 //Выводим значения x  y на печать
 }
                      
 
-ReadMethod();
+ReadMethod();        // Вызываем методы, считывания, расчёта и печати
 ConculateMethod();
 PrintMethod();
  
